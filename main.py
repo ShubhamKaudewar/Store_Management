@@ -55,9 +55,7 @@ def main():
         if action_id == 6:
             break
         print(do_action(action_id))
-        anykey = int(input("Press Anykey to continue [6 to exit]...\n>>>"))
-        if anykey == 6:
-            break
+        input("Press Anykey to continue...")
     print("Thank you for using Store Management!")
 
 if __name__ == "__main__":

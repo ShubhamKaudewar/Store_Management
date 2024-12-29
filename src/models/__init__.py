@@ -1,1 +1,1 @@
-from .mdoels import Product, Employee
+from .models import Product, Employee

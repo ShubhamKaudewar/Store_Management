@@ -63,7 +63,7 @@ class EmployeeManager:
         if not employee_obj:
             return False
         employee = Employee(*employee_obj)
-        return employee.name
+        return employee.firstname
 
     def close_connection(self):
         self.conn.close()
